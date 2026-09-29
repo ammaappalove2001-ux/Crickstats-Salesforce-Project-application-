@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+ <columns><field>NAME</field></columns>
+ <columns><field>TEAM__C</field></columns>
+ <columns><field>MATCHES_PLAYED__C</field></columns>
+ <columns><field>TOTAL_RUNS__C</field></columns>
+ <columns><field>AVG_SCORE__C</field></columns>
+ <columns><field>TOTAL_WICKETS__C</field></columns>
+ <format>Tabular</format>
+ <name>Player Performance</name>
+ <reportType>Players__c</reportType>
+</Report>

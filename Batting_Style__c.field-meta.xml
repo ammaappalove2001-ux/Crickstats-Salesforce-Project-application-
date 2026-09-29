@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+      <fullName>Batting_Style__c</fullName>
+      <label>Batting Style</label>
+      <type>Picklist</type>
+
+<valueSet><valueSetDefinition>
+<value><fullName>Right-Handed</fullName><default>false</default><label>Right-Handed</label></value>
+<value><fullName>Left-Handed</fullName><default>false</default><label>Left-Handed</label></value>
+</valueSetDefinition></valueSet>
+    </CustomField>

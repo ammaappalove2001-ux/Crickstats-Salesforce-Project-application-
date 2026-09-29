@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+      <fullName>Match_Performance_Lookup__c</fullName>
+      <label>Match Performance</label>
+      <type>Lookup</type>
+
+<referenceTo>Match_Performance__c</referenceTo><relationshipName>Player_Match_Performance</relationshipName><relationshipLabel>Player Match Performance</relationshipLabel>
+    </CustomField>

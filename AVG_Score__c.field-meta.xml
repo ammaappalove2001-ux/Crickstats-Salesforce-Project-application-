@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+      <fullName>AVG_Score__c</fullName>
+      <label>AVG Score</label>
+      <type>Formula</type>
+
+<returnType>Number</returnType><scale>2</scale>
+<formula>IF(Matches_Played__c &gt; 0, Total_Runs__c / Matches_Played__c, 0)</formula>
+    </CustomField>

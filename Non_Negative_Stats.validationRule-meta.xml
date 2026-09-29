@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+ <fullName>Non_Negative_Stats</fullName><active>true</active>
+ <errorConditionFormula>OR(Runs_Scored__c &lt; 0, Balls_Faced__c &lt; 0, Fours__c &lt; 0, Sixes__c &lt; 0, Overs_Bowled__c &lt; 0, Wickets_Taken__c &lt; 0, Runs_Conceded__c &lt; 0, Maiden_Overs__c &lt; 0, Stumpings__c &lt; 0, Catches__c &lt; 0)</errorConditionFormula>
+ <errorMessage>Performance statistics cannot be negative.</errorMessage>
+</ValidationRule>

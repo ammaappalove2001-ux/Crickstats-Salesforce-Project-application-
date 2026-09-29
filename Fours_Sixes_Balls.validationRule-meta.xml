@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+ <fullName>Fours_Sixes_Balls</fullName><active>true</active>
+ <errorConditionFormula>AND((Fours__c * 4) + (Sixes__c * 6) &gt; Runs_Scored__c, OR(Fours__c &gt; 0, Sixes__c &gt; 0))</errorConditionFormula>
+ <errorMessage>Runs from fours and sixes cannot exceed total runs scored.</errorMessage>
+</ValidationRule>

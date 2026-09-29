@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fullName>Total_Sixes__c</fullName>
+  <label>Total 6's</label>
+  <type>RollupSummary</type>
+  <summaryForeignKey>Player__c</summaryForeignKey><summaryField>Sixes__c</summaryField><summaryOperation>Sum</summaryOperation>
+</CustomField>
